@@ -23,8 +23,44 @@ h1{
      /* margin-left: 1em; */
      font-weight: normal;
      font-family: helvetica;
-     color: grey;
+     color:white;
  }
+
+ h3{
+  display: block;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: white;
+  font-family: helvetica;
+  margin-left: 13em;
+  margin-top: 6em;
+}
+
+h4{
+  display: block;
+  font-size: 1em;
+  /* font-weight: regular; */
+  color: #ffacca;
+  font-family: helvetica;
+  margin-left: 28.5em;
+  margin-top: 4em;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  left: 22.8em;
+  top: 29em;
+}
 
  input{
     

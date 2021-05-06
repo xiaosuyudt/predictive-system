@@ -13,10 +13,10 @@ let canvas;
 
 // let label;
 // For displaying the label
-let num = "Waiting to calculate...";
+let num = "Waiting to tell...";
 // The classifier
 let classifier;
-let modelURL = 'https://teachablemachine.withgoogle.com/models/uSqR0cUOn/';
+let modelURL = 'https://teachablemachine.withgoogle.com/models/nAh6YrUb3/';
 
 // STEP 1: Load the model!
 function preload() {
