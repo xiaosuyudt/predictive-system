@@ -28,7 +28,7 @@ function setup() {
   canvas = createCanvas(windowWidth-160, 640);
   title = createElement("h1", "");
   title.position(80, 20);
-  smallTitle = createElement("h2", "Find out how ugly your design is");
+  smallTitle = createElement("h2", "Upload an image to find out");
   smallTitle. position(40, 180);
   
 
@@ -81,10 +81,10 @@ function gotResults(error, results) {
     labelIndex = results[0].label;
 
   //reformat the number
-  let numFormat = nfc(labelName*100, 2) + "%";
+  // let numFormat = nfc(labelName*100, 2) + "%";
 
   //display ugly index 
-  num = labelIndex + "    " + numFormat;
+  num = labelIndex;
 
   //call the classify function
   classifyVideo();
